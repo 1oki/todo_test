@@ -11,7 +11,7 @@ const TodoFilter: React.FC = () => {
         selectedKeys={[filter]}
         onClick={(e) => setFilter(e.key as any)}
         >
-        <Menu.Item key="all">Все</Menu.Item>
+        <Menu.Item key="all">All</Menu.Item>
         <Menu.Item key="completed">Completed</Menu.Item>
         <Menu.Item key="incomplete">Incomplete</Menu.Item>
         <Menu.Item key="favorite">Favorite</Menu.Item>

@@ -25,6 +25,7 @@ const TodoList: React.FC = () => {
         hasMore={hasMore}
         loader={<Spin />}
         endMessage={<p style={{ textAlign: 'center' }}>All tasks have been loaded</p>}
+        height={600}
         >
             <List
             itemLayout="horizontal"
